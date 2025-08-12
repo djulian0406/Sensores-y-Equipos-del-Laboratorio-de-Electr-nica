@@ -22,7 +22,8 @@ LIDAR tridimensional de 360° que utiliza múltiples haces láser para capturar 
 ---
 
 ## 4. Sensor fotoeléctrico reflexivo
-![Sensor fotoeléctrico](sensor-fotoelectrico.jpg)
+![Sensor fotoeléctrico - vista 1](sensor-fotoelectrico.jpg)  
+![Sensor fotoeléctrico - vista 2](sensor-fotoelectrico1.jpg)
 Sensor con carcasa plástica negra y ventanas frontales rojas, diseñado para detectar la presencia o ausencia de objetos sin contacto físico. Funciona emitiendo un haz de luz infrarroja que se refleja en el objeto y es recibido por el fotodetector. Incluye soporte metálico en “L” y cable multiconductor para alimentación y señal de salida.  
 **Referencia:** [Sensor fotoeléctrico - Wikipedia](https://es.wikipedia.org/wiki/Sensor_fotoel%C3%A9ctrico)
 
@@ -53,3 +54,16 @@ Sensor de temperatura con elemento NTC/PT100/PT1000 o digital, protegido en tubo
 ![LIDAR rotativo](lidar-rotativo.jpg)
 Dispositivo que emite pulsos láser y mide el tiempo que tardan en regresar para mapear distancias y generar un escaneo en 2D del entorno, usado en robótica para navegación y evitación de obstáculos.  
 **Referencia:** [LIDAR - Wikipedia](https://es.wikipedia.org/wiki/Lidar)
+
+## 9. Multímetro Digital UNI-T UT39A+
+![Multímetro UNI-T UT39A+](WhatsApp%20Image%202025-08-11%20at%2019.53.50_28325bd7.jpg)  
+Instrumento portátil que mide voltaje, corriente, resistencia, continuidad y otros parámetros eléctricos.  
+**Referencia:** [Manual UNI-T UT39A+](https://www.uni-trend.com/manual/UT39A+.pdf)
+
+## 10. Anemómetro y Aerogenerador de Pequeña Escala
+![Aerogenerador y Anemómetro](WhatsApp%20Image%202025-08-11%20at%2019.53.50_b85f011b.jpg)  
+- **Anemómetro:** Mide la velocidad del viento mediante copas giratorias.  
+- **Aerogenerador:** Convierte energía cinética del viento en electricidad para fines de demostración o estudio.  
+**Referencia Anemómetro:** [Anemómetro - Wikipedia](https://es.wikipedia.org/wiki/Anem%C3%B3metro)  
+**Referencia Aerogenerador:** [Aerogenerador - Wikipedia](https://es.wikipedia.org/wiki/Aerogenerador)
+
