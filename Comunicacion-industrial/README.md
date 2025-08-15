@@ -29,11 +29,12 @@ Es un sistema de codificación que traduce caracteres alfanuméricos y símbolos
 | 8   | CTS (Clear to Send)          | Listo para enviar               |
 | 9   | RI (Ring Indicator)          | Indicador de timbrado           |
 
-**Imagen del conector DB9:**
+-**Imagen del conector DB9:**
 ![DB9 Pinout](rs232-pinout.webp)
+
 ---
 
-### 🔹 Conector DB25
+-### 🔹 Conector DB25
 
 | Pin | Nombre                      | Función                        |
 |-----|-----------------------------|---------------------------------|
