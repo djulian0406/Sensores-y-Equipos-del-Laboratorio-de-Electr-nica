@@ -2,7 +2,7 @@
 
 ## 1. Flow deck 2.0 (Bitcraze)
 ![Flow deck 2.0](flow-deck.jpg)
-Módulo de flujo óptico y medición de distancia diseñado para drones Crazyflie, que utiliza una cámara de baja resolución y un sensor de distancia por tiempo de vuelo (ToF) para estimar movimiento horizontal y altura sobre el suelo, permitiendo un vuelo más estable en interiores sin GPS.  
+//Módulo de flujo óptico y medición de distancia diseñado para drones Crazyflie, que utiliza una cámara de baja resolución y un sensor de distancia por tiempo de vuelo (ToF) para estimar movimiento horizontal y altura sobre el suelo, permitiendo un vuelo más estable en interiores sin GPS.  
 **Referencia:** [Flow deck 2.0 - Bitcraze](https://www.bitcraze.io/products/flow-deck-v2/)
 **Fuente:** [Propia]
 ---
