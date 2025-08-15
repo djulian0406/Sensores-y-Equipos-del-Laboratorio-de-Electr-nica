@@ -49,9 +49,12 @@ Es un sistema de codificación que traduce caracteres alfanuméricos y símbolos
 | 22  | RI (Ring Indicator)         | Indicador de timbrado           |
 
 
-**Imagen del conector DB25:**
+
+-**Imagen del conector DB25:**
+
 ![DB25 Pinout](BLZ%20141%20RS-530.png)
-> ⚠️ Algunos pines restantes se reservan o se usan para funciones específicas según el fabricante.
+
+- ⚠️ Algunos pines restantes se reservan o se usan para funciones específicas según el fabricante.
 
 ---
 
