@@ -1,4 +1,4 @@
-**MAX232
+#MAX232
 
 📋 Índice
 1. Introducción
