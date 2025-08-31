@@ -23,12 +23,12 @@ Aunque el RS-232 ha sido ampliamente reemplazado por interfaces más modernas co
 
 Diagrama de Pines (DIP-16)  
 ![Diagrama eléctrico](max232-diagrama.png)  
-Referencia: [Bitcraze ](https://www.analog.com/media/en/technical-documentation/data-sheets/max3222-max3241.pdf) 
+Referencia: [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max3222-max3241.pdf) 
 Fuente: Propia
 
 Conexión Típica  
 ![Conexión típica](max232-conexion.png)  
-Referencia: [Bitcraze](https://www.analog.com/media/en/technical-documentation/data-sheets/max3222-max3241.pdf)  
+Referencia: [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max3222-max3241.pdf)  
 Fuente: Propia
 
 
