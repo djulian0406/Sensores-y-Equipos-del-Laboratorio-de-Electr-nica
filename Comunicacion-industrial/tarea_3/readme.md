@@ -19,6 +19,22 @@ Su función principal es convertir señales TTL/CMOS (0-5V) a señales RS-232 (�
 Aunque el RS-232 ha sido ampliamente reemplazado por interfaces más modernas como USB, Ethernet o comunicaciones inalámbricas, el MAX232 sigue siendo relevante en aplicaciones industriales, legacy systems y proyectos educativos.
 
 
+🔌 Esquema Eléctrico
+
+Diagrama de Pines (DIP-16)  
+![Diagrama eléctrico - Bitcraze](max232-diagrama.jpg)  
+Referencia: Bitcraze  
+Fuente: Propia
+
+Conexión Típica  
+![Conexión típica - Bitcraze](max232-conexion.png)  
+Referencia: Bitcraze  
+Fuente: Propia
+
+
+Para operar el MAX232, se requieren cuatro capacitores externos (generalmente 1µF a 22µF, electrolíticos o cerámicos) que actúan como bombas de carga para generar los voltajes positivos y negativos necesarios para el RS-232.
+
+
 ⚙️ Funcionamiento
 El MAX232 integra dos drivers (transmisores) y dos receptores:
 
