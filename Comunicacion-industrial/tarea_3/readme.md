@@ -1,4 +1,4 @@
-MAX232: Guía Informativa
+**MAX232
 
 📋 Índice
 1. Introducción
