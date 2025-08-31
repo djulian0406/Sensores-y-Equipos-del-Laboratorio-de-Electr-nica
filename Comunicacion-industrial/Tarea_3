@@ -1,1 +1,42 @@
+/*
+ * Ejemplo de comunicación serial con MAX232
+ * Conecte:
+ * - TX del Arduino (pin 1) a T1IN (pin 11) del MAX232
+ * - RX del Arduino (pin 0) a R1OUT (pin 12) del MAX232
+ * - T1OUT (pin 14) del MAX232 al pin RX del dispositivo RS-232
+ * - R1IN (pin 13) del MAX232 al pin TX del dispositivo RS-232
+ */
 
+void setup() {
+  // Inicializar comunicación serial a 9600 baudios
+  Serial.begin(9600);
+  
+  // Mensaje inicial
+  Serial.println("Sistema Arduino con MAX232 inicializado");
+  Serial.println("Envie un caracter para recibir eco...");
+  Serial.println();
+}
+
+void loop() {
+  // Leer datos disponibles del puerto serial
+  if (Serial.available() > 0) {
+    // Leer el byte entrante
+    char incomingByte = Serial.read();
+    
+    // Eco del byte recibido
+    Serial.print("Caracter recibido: ");
+    Serial.println(incomingByte);
+    
+    // Responder con un mensaje
+    Serial.print("Eco: ");
+    Serial.println(incomingByte);
+    Serial.println();
+  }
+  
+  // Enviar mensaje periódico cada 5 segundos
+  static unsigned long lastSendTime = 0;
+  if (millis() - lastSendTime > 5000) {
+    lastSendTime = millis();
+    Serial.println("Mensaje automatico cada 5 segundos");
+  }
+}
