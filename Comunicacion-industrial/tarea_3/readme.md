@@ -21,13 +21,13 @@ El MAX3232 integra 2 transmisores y 2 receptores, siendo totalmente compatible e
 
 Su bajo consumo energético, junto con la capacidad de operar en un amplio rango de voltaje, lo hace especialmente adecuado para:
 
-Equipos alimentados por batería
+-Equipos alimentados por batería
 
-Dispositivos portátiles
+-Dispositivos portátiles
 
-Periféricos de comunicación
+-Periféricos de comunicación
 
-Sistemas de telecomunicaciones y datacom
+-Sistemas de telecomunicaciones y datacom
 
 En resumen, el MAX3232 es una evolución del clásico MAX232, optimizada para entornos de bajo voltaje, bajo consumo y alta confiabilidad, manteniendo la simplicidad de implementación que caracteriza a esta familia de transceptores.
 
