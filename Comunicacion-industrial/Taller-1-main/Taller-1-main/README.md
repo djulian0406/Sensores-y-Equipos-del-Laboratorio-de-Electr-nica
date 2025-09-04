@@ -127,18 +127,26 @@ En capas donde la integridad es crítica el CRC suele sustituir al checksum. ARQ
 
 1. **CN 461979307 — Protección contra sobretemperatura en transmisores de radiofrecuencia**  
    Protector de sobretemperatura para transmisores y sistemas de antena basado en fibras ópticas con detección distribuida de temperatura. Mide en tiempo real múltiples nodos de la línea de transmisión y ordena reducir o apagar la potencia ante anomalías. Integra interfaces TCP IP y RS 232 para supervisión remota e integración con sistemas de control existentes.
+
 ![1](https://github.com/user-attachments/assets/f9fd09e7-b2d5-4525-98c1-b4bff94042a5)
+
 
 2. **DE 10 2024 106 799 B3 — Protocolo FAAD para convertidores multinivel**  
    Protocolo FAAD denominado Fast Acknowledge and Diagnosis orientado a sistemas de potencia con múltiples módulos. Organiza la comunicación en ciclos de comando, diagnóstico y confirmación rápida. Cada módulo puede transmitir un bit para reducir la sobrecarga y aumentar la fiabilidad. Puede transportarse sobre UART o RS 232 y así integrarse con infraestructura industrial existente.
+   
 ![2](https://github.com/user-attachments/assets/e78a30fc-1b26-4c4c-b7b1-c03fd5a86b64)
+
 ![3](https://github.com/user-attachments/assets/2ceae54d-6c52-404f-9953-3dfba1ae1454)
+
 ![4](https://github.com/user-attachments/assets/96895f21-3305-4566-945e-753f1da39167)
+
 ![5](https://github.com/user-attachments/assets/02f93254-1211-4983-81e6-c953e2b4c21a)
 
 
 4. **Pasarela IoT con RS 232, RS 485 y CAN — Asignación dinámica de recursos**  
    Gateway IoT con interfaces RS 232, RS 485 y CAN. Detecta qué interfaces están activas y carga solo el firmware necesario, lo que reduce memoria y consumo. Soporta actualizaciones diferenciales remotas seguras mediante redes celulares y la nube. Mantiene compatibilidad con equipos legados y con buses multipunto modernos.
+   
 ![6](https://github.com/user-attachments/assets/79335ed7-1265-445b-8cc2-1c00c9db0430)
+
 ![7](https://github.com/user-attachments/assets/32a45007-c634-4d4e-a806-db9e7e8353b1)
 
