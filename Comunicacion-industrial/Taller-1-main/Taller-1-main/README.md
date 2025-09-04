@@ -126,13 +126,27 @@ En capas donde la integridad es crítica el CRC suele sustituir al checksum. ARQ
 ## Patentes relacionadas con aplicaciones industriales
 
 1. **CN 461979307 — Protección contra sobretemperatura en transmisores de radiofrecuencia**  
-   Protector de sobretemperatura para transmisores y sistemas de antena basado en fibras ópticas con detección distribuida de temperatura. Mide en tiempo real múltiples nodos de la línea de transmisión y ordena reducir o apagar la potencia ante anomalías. Integra interfaces TCP IP y RS 232 para supervisión remota e integración con sistemas de control existentes.
+Esta patente se centra en un protector de sobretemperatura para transmisores y sistemas de antena en estaciones de radiodifusión. El sistema utiliza fibras ópticas con sensores distribuidos para detectar la temperatura en tiempo real a lo largo de diferentes puntos críticos de la línea de transmisión, como conectores, divisores de potencia y guías de onda.
+
+El diseño incluye un módulo de control central (MCU) que recopila los datos de temperatura mediante un detector y los procesa con algoritmos de calibración y filtrado, eliminando errores y ruido en las mediciones. Cuando la temperatura supera umbrales definidos, el controlador envía instrucciones al transmisor para reducir o cortar la potencia de salida, evitando daños en los amplificadores y asegurando la continuidad de la transmisión.
 
 ![1](https://github.com/user-attachments/assets/f9fd09e7-b2d5-4525-98c1-b4bff94042a5)
 
 
 2. **DE 10 2024 106 799 B3 — Protocolo FAAD para convertidores multinivel**  
-   Protocolo FAAD denominado Fast Acknowledge and Diagnosis orientado a sistemas de potencia con múltiples módulos. Organiza la comunicación en ciclos de comando, diagnóstico y confirmación rápida. Cada módulo puede transmitir un bit para reducir la sobrecarga y aumentar la fiabilidad. Puede transportarse sobre UART o RS 232 y así integrarse con infraestructura industrial existente.
+Esta patente introduce un protocolo de comunicación denominado FAAD (Fast Acknowledge and Diagnosis), diseñado específicamente para convertidores multinivel de potencia. Estos sistemas están compuestos por múltiples módulos (celdas), que deben trabajar de forma sincronizada y segura.
+
+El protocolo FAAD organiza la comunicación en tres fases:
+
+Comando: el controlador principal envía instrucciones a cada módulo.
+
+Diagnóstico: cada módulo responde con información mínima (solo un bit) indicando su estado.
+
+Confirmación rápida: el sistema valida la integridad de las respuestas y toma decisiones en tiempo real.
+
+Gracias a este esquema, se reduce la sobrecarga de datos en comparación con protocolos tradicionales, lo que se traduce en mayor velocidad y fiabilidad de diagnóstico.
+
+La implementación se hace mediante UART, lo que lo hace directamente compatible con RS232. Esto significa que los convertidores pueden comunicarse usando un estándar muy extendido en la industria, facilitando su integración en sistemas de control industrial y automatización que todavía utilizan PLC, variadores o controladores basados en RS232.
    
 ![2](https://github.com/user-attachments/assets/e78a30fc-1b26-4c4c-b7b1-c03fd5a86b64)
 
@@ -144,7 +158,13 @@ En capas donde la integridad es crítica el CRC suele sustituir al checksum. ARQ
 
 
 4. **Pasarela IoT con RS 232, RS 485 y CAN — Asignación dinámica de recursos**  
-   Gateway IoT con interfaces RS 232, RS 485 y CAN. Detecta qué interfaces están activas y carga solo el firmware necesario, lo que reduce memoria y consumo. Soporta actualizaciones diferenciales remotas seguras mediante redes celulares y la nube. Mantiene compatibilidad con equipos legados y con buses multipunto modernos.
+Este invento describe una pasarela de comunicaciones IoT diseñada para entornos industriales. Su principal innovación es la gestión dinámica de interfaces: el sistema detecta qué buses están activos (RS232, RS485, CAN) y solo carga el firmware necesario, lo que ahorra recursos de memoria y energía.
+
+El gateway también soporta actualizaciones diferenciales de firmware a través de redes 4G y nube, lo que permite mantenerlo actualizado de forma remota sin interrumpir el servicio. Además, puede integrarse con sistemas de monitoreo industrial, mejorando la seguridad y la eficiencia en el mantenimiento.
+
+RS232: se incluye para compatibilidad con dispositivos antiguos que siguen usándose en fábricas y sistemas legacy.
+
+RS485 y CAN: permiten conexión multipunto y comunicación más robusta, necesarias en redes modernas de sensores y controladores industriales.
    
 ![6](https://github.com/user-attachments/assets/79335ed7-1265-445b-8cc2-1c00c9db0430)
 
